@@ -22,7 +22,7 @@ type InputTypes = "nome" | "email" | "telefone"
 
 export class PrimaryInputComponent implements ControlValueAccessor {
   @Input() nome: InputTypes = "nome";
-//  @Input() formName: string = "";
+  //  @Input() formName: string = "";
   @Input() placeholder: string = "";
   @Input() lable: string = "";
   @Input() inputName: string = "";

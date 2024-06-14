@@ -1,18 +1,17 @@
-<app-default-register-layout title="Cadastro aqui!" primaryBtnText="Salvar" secondaryBtnText="Limpar">
+<app-default-register-layout title="Cadastros!" primaryBtnText="Salvar" secondaryBtnText="Listar"
+    context="Mova-se e crie novos cadastros!">
     <form [formGroup]="registerFrom">
-        <app-primary-input 
-        formControlName="nome"
-        inputName="nome" type="nome" lable="Nome" placeholder="Arthur Mikael">
+        <app-primary-input formControlName="nome" inputName="nome" type="nome" lable="Nome" placeholder="Arthur Mikael">
             <img src="/assets/svg/pessoa-icon.svg" />
         </app-primary-input>
 
-        <app-primary-input
-        formControlName="email"
-        inputName="email" type="email" lable="Email" placeholder="arthur@gmail.com">
+        <app-primary-input formControlName="email" inputName="email" type="email" lable="Email"
+            placeholder="arthur@gmail.com">
             <img src="/assets/svg/email-icon.svg" />
         </app-primary-input>
 
-        <app-primary-input formControlName="telefone" inputName="telefone" type="telefone" lable="Telefone" placeholder="(00) 0 0000-0000">
+        <app-primary-input formControlName="telefone" inputName="telefone" type="telefone" lable="Telefone"
+            placeholder="(00) 0 0000-0000">
             <img src="/assets/svg/telefone-icon.svg" />
         </app-primary-input>
     </form>
